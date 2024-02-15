@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -53,7 +53,7 @@ li {
     background-color: aliceblue;
     cursor: default;
 }
-
+/* ---------------------- */
 #main {
     background-color: var(--bg-color);
     display: flex;
@@ -83,4 +83,13 @@ footer {
 
 a {
     text-decoration: none;
+}
+
+.wood-type {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+img {
+    margin-bottom: 2rem;
 }
